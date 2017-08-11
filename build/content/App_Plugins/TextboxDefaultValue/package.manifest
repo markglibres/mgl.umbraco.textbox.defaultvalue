@@ -1,0 +1,31 @@
+﻿{   
+    //you can define multiple editors   
+    propertyEditors: [      
+        {
+            /*this must be a unique alias*/ 
+            alias: "MGL.TextboxDefaultValue",
+            /*the name*/
+            name: "Textbox with default",
+            /*the html file we will load for the editor*/
+            editor: {
+                view: "~/App_Plugins/TextboxDefaultValue/views/TextboxDefaultValue.html"
+            },
+			prevalues:{
+				fields: [
+					{
+					   label: "Default Value",
+					   description: "Default Value",
+					   key: "defaultValue",
+					   view: "textstring"
+					}
+				]
+		}
+        }
+    ]
+    ,
+    //array of files we want to inject into the application on app_start
+    javascript: [
+        '~/App_Plugins/TextboxDefaultValue/js/TextboxDefaultValue.controllers.js'
+    ]
+	
+}

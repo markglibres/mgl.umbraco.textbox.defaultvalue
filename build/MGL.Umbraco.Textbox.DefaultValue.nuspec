@@ -1,25 +1,25 @@
-<?xml version="1.0"?>
-<package >
-  <metadata>
-    <id>MGL.Umbraco.Textbox.DefaultValue</id>
-    <version>0.1</version>
-    <title>Umbraco Textbox</title>
-    <authors>Mark Gil Libres</authors>
-    <owners>Mark Gil Libres</owners>
-    <projectUrl>https://github.com/markglibres/mgl.umbraco.textbox.defaultvalue</projectUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Umbraco textbox with default value</description>
-    <copyright>Copyright 2017</copyright>
-    <tags>Umbraco Textbox</tags>
-    <dependencies>
-      <group targetFramework="4.5">
-        <dependency id="UmbracoCms" version="7.5.11" />
-      </group>
-    </dependencies>
-  </metadata>
-  <files>
-    <file src="App_Plugins\TextboxDefaultValue\js\TextboxDefaultValue.controllers.js" target="App_Plugins\TextboxDefaultValue\js\TextboxDefaultValue.controllers.js" />
-    <file src="App_Plugins\TextboxDefaultValue\views\TextboxDefaultValue.html" target="App_Plugins\TextboxDefaultValue\views\TextboxDefaultValue.html" />
-    <file src="App_Plugins\TextboxDefaultValue\package.manifest" target="App_Plugins\TextboxDefaultValue\package.manifest" />
-  </files>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>MGL.Umbraco.Textbox.DefaultValue</id>
+        <version>0.1.2</version>
+        <title>Umbraco Textbox</title>
+        <authors>Mark Gil Libres</authors>
+        <owners>Mark Gil Libres</owners>
+        <projectUrl>https://github.com/markglibres/mgl.umbraco.textbox.defaultvalue</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Umbraco textbox with default value</description>
+        <copyright>Copyright 2017</copyright>
+        <tags>Umbraco Textbox</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5">
+                <dependency id="UmbracoCms" version="7.5.11" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="content\App_Plugins\TextboxDefaultValue\js\TextboxDefaultValue.controllers.js" target="content\App_Plugins\TextboxDefaultValue\js\TextboxDefaultValue.controllers.js" />
+        <file src="content\App_Plugins\TextboxDefaultValue\views\TextboxDefaultValue.html" target="content\App_Plugins\TextboxDefaultValue\views\TextboxDefaultValue.html" />
+        <file src="content\App_Plugins\TextboxDefaultValue\package.manifest" target="content\App_Plugins\TextboxDefaultValue\package.manifest" />
+    </files>
 </package>
